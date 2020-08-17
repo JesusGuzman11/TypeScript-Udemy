@@ -1,5 +1,5 @@
 let avengers: number = 5;
-let villanos: number;
+let villanos: number = 2;
 let otros = 2;
 
 if (avengers > villanos) {
