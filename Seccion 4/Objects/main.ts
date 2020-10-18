@@ -1,4 +1,4 @@
-import { Heroe } from "./utils/types";
+import { Heroe } from "../utils/types";
 /* ----------------------------- Objetos Basicos ---------------------------- */
 let flash = {
   nombre: "Barry Allen",
