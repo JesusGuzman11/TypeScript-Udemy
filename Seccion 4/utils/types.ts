@@ -5,4 +5,28 @@ type Heroe = {
   getNombre: () => string;
 };
 
-export { Heroe }
+type Charles = {
+  poder: string;
+  estatura: number;
+};
+
+type Apocalipsis = {
+  lider: boolean;
+  miembros: string[];
+};
+
+type Automovil = {
+  carroceria: string;
+  modelo: string;
+  antibalas: boolean;
+  pasajeros: number;
+  disparar?: () => void;
+};
+
+type Villano = {
+  nombre: string;
+  edad: number;
+  mutante: boolean;
+};
+
+export { Heroe, Apocalipsis, Automovil, Charles, Villano };
