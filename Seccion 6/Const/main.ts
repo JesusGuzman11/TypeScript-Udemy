@@ -2,15 +2,15 @@
 
 const OPCIONES = {
   activado: true,
-  desactivado: false
-}
+  desactivado: false,
+};
 
-OPCIONES.desactivado = true
+OPCIONES.desactivado = true;
 
-console.log(OPCIONES)
+console.log(OPCIONES);
 
 if (true) {
-  const OPCION: string = "Desavtivado";
+  const OPCION: string = "Desactivado";
 }
 
 for (const i of [1, 2, 3, 4, 5, 6]) {
