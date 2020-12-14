@@ -1,8 +1,8 @@
-/* Interface Basica */
+/* Interface Basica y propiedades opcionales */
 
 interface Hero {
   nombre: string;
-  poder: string;
+  poder?: string;
 }
 
 function enviarMision(heroe: Hero) {
@@ -15,7 +15,6 @@ function enviarCuartel(heroe: Hero) {
 
 let superman: Hero = {
   nombre: "Superman",
-  poder: "Super Fuerza",
 };
 
 enviarMision(superman);

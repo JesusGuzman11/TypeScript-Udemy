@@ -1,5 +1,5 @@
 "use strict";
-/* Interface Basica */
+/* Interface Basica y propiedades opcionales */
 function enviarMision(heroe) {
     console.log("Enviando a " + heroe.nombre + " a la mision");
 }
@@ -8,7 +8,6 @@ function enviarCuartel(heroe) {
 }
 var superman = {
     nombre: "Superman",
-    poder: "Super Fuerza",
 };
 enviarMision(superman);
 enviarCuartel(superman);
